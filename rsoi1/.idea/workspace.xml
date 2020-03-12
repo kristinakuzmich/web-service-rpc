@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="rsoi1:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37b67fd9-8c5d-492c-861b-663aca74e080" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YfT9hmaZ9pIWaHueCrmj8GzYio" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.phoneap">
+    <configuration name="phoneap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="phoneap" />
+      <module name="rsoi1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.99" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/rsoi1_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="rsoi1:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/rsoi1_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_rsoi1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59153" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rsoi1:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.phoneap" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.99" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.phoneap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37b67fd9-8c5d-492c-861b-663aca74e080" name="Default Changelist" comment="" />
+      <created>1580853227288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580853227288</updated>
+      <workItem from="1580853230404" duration="4041000" />
+      <workItem from="1580858608783" duration="919000" />
+      <workItem from="1581141005252" duration="1181000" />
+      <workItem from="1581142465372" duration="1004000" />
+      <workItem from="1581151586493" duration="2433000" />
+      <workItem from="1581154053095" duration="1463000" />
+      <workItem from="1581162881533" duration="311000" />
+      <workItem from="1581279081782" duration="5000" />
+      <workItem from="1581320256580" duration="3558000" />
+      <workItem from="1581325957415" duration="361000" />
+      <workItem from="1581343740172" duration="1987000" />
+      <workItem from="1581378329443" duration="60000" />
+      <workItem from="1581433421520" duration="77000" />
+      <workItem from="1581436736915" duration="1797000" />
+      <workItem from="1581445024158" duration="36000" />
+      <workItem from="1581459196295" duration="641000" />
+      <workItem from="1581517923526" duration="2332000" />
+      <workItem from="1582032263887" duration="1918000" />
+      <workItem from="1583332508342" duration="7345000" />
+      <workItem from="1583361799187" duration="613000" />
+      <workItem from="1583363880429" duration="1561000" />
+      <workItem from="1583429714488" duration="535000" />
+      <workItem from="1583612943609" duration="4684000" />
+      <workItem from="1583619357162" duration="2698000" />
+      <workItem from="1583703126323" duration="302000" />
+      <workItem from="1583703833817" duration="1833000" />
+      <workItem from="1583792989029" duration="629000" />
+      <workItem from="1583794796944" duration="647000" />
+      <workItem from="1583850633433" duration="647000" />
+      <workItem from="1583874531606" duration="122000" />
+      <workItem from="1583881744569" duration="2552000" />
+      <workItem from="1583922273030" duration="744000" />
+      <workItem from="1583930567901" duration="3421000" />
+      <workItem from="1584041071581" duration="20000" />
+      <workItem from="1584041157882" duration="30000" />
+      <workItem from="1584042778275" duration="962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="65" key="#Project_Structure" timestamp="1583614359743">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="275" y="65" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1583614359743" />
+    <state x="434" y="100" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1583615907769">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="434" y="100" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.40.1366.728@0.40.1366.728" timestamp="1583615907769" />
+    <state x="292" y="217" key="FileChooserDialogImpl" timestamp="1584043268228">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="292" y="217" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1584043268228" />
+    <state width="1323" height="286" key="GridCell.Tab.0.bottom" timestamp="1584043792954">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="286" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1584043792954" />
+    <state width="1323" height="286" key="GridCell.Tab.0.center" timestamp="1584043792954">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="286" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1584043792954" />
+    <state width="1323" height="286" key="GridCell.Tab.0.left" timestamp="1584043792954">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="286" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1584043792954" />
+    <state width="1323" height="286" key="GridCell.Tab.0.right" timestamp="1584043792954">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="286" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1584043792954" />
+    <state x="274" y="124" width="1040" height="628" key="SettingsEditor" timestamp="1584043288704">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="274" y="124" width="1040" height="628" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1584043288704" />
+    <state x="391" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1583930586260">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="391" y="231" key="com.intellij.ide.util.TipDialog/0.40.1366.728@0.40.1366.728" timestamp="1583930586260" />
+    <state x="43" y="40" key="new project wizard" timestamp="1583617862027">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="43" y="40" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1583617862027" />
+    <state x="322" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583334332436">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="322" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1583334332436" />
+  </component>
+</project>

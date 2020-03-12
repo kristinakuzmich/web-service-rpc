@@ -1,0 +1,10 @@
+127.0.0.1 - - [05/Mar/2020:00:21:56 +0300] "POST /axis/phone.jws HTTP/1.0" 500 639
+127.0.0.1 - - [05/Mar/2020:01:10:15 +0300] "GET /axis/happyaxis.jsp HTTP/1.1" 500 8428
+127.0.0.1 - - [05/Mar/2020:01:10:18 +0300] "GET /axis/happyaxis.jsp HTTP/1.1" 200 8352
+127.0.0.1 - - [05/Mar/2020:01:31:48 +0300] "GET /axis/happyaxis.jsp HTTP/1.1" 500 8428
+127.0.0.1 - - [05/Mar/2020:01:31:53 +0300] "GET /axis/happyaxis.jsp HTTP/1.1" 200 8352
+127.0.0.1 - - [05/Mar/2020:02:24:29 +0300] "POST /axis/phone.jws HTTP/1.0" 500 639
+127.0.0.1 - - [05/Mar/2020:02:29:09 +0300] "GET /axis/happyaxis.jsp HTTP/1.1" 200 8352
+127.0.0.1 - - [05/Mar/2020:02:30:02 +0300] "GET /axis/happyaxis.jsp HTTP/1.1" 500 8428
+127.0.0.1 - - [05/Mar/2020:02:30:05 +0300] "GET /axis/happyaxis.jsp HTTP/1.1" 200 8356
+127.0.0.1 - - [05/Mar/2020:02:40:55 +0300] "POST /axis/phone.jws HTTP/1.0" 500 639

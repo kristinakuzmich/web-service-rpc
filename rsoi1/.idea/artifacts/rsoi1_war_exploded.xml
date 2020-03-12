@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="rsoi1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/rsoi1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="rsoi1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="rsoi1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/axis.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/saaj.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/jaxrpc.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/axis-ant.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/log4j-1.2.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/wsdl4j-1.5.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/commons-discovery-0.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/commons-logging-1.0.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/apache-tomcat-7.0.99/webapps/axis/WEB-INF/lib/tools.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/axis.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/saaj.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/tools.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/jaxrpc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/axis-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/axis-ant.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/log4j-1.2.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/wsdl4j-1.5.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/commons-discovery-0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../apache-tomcat-7.0.100/webapps/axis/WEB-INF/lib/commons-logging-1.0.4.jar" />
+          <element id="library" level="project" name="mail" />
+          <element id="library" level="project" name="axis" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

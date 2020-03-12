@@ -1,0 +1,1700 @@
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 12:19:28 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 12:19:28 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 12:19:28 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 12:19:28 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 12:19:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 12:19:30 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5690 ms
+мар 05, 2020 12:19:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 12:19:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 12:19:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 12:19:40 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 12:19:41 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [463] milliseconds.
+мар 05, 2020 12:19:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [11 740] ms
+мар 05, 2020 12:19:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 12:19:44 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 12:19:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [2 139] ms
+мар 05, 2020 12:19:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 12:19:51 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 12:19:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [7 345] ms
+мар 05, 2020 12:19:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 12:19:52 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 12:19:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [869] ms
+мар 05, 2020 12:19:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 12:19:54 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 12:19:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [1 636] ms
+мар 05, 2020 12:19:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 12:19:54 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 12:19:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [516] ms
+мар 05, 2020 12:19:54 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 12:19:54 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 24638 ms
+мар 05, 2020 1:00:53 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact [localhost:8005]. Tomcat may not be running.
+мар 05, 2020 1:00:53 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:515)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:330)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:420)
+
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:02:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:02:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:02:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:02:01 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:02:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:02:03 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4934 ms
+мар 05, 2020 1:02:03 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:02:03 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:02:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:02:08 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:02:09 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [460] milliseconds.
+мар 05, 2020 1:02:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [6 112] ms
+мар 05, 2020 1:02:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:02:11 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:02:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 869] ms
+мар 05, 2020 1:02:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:02:14 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:02:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [3 717] ms
+мар 05, 2020 1:02:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:02:15 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:02:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [731] ms
+мар 05, 2020 1:02:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:02:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:02:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [765] ms
+мар 05, 2020 1:02:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:02:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:02:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [380] ms
+мар 05, 2020 1:02:17 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:02:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14025 ms
+мар 05, 2020 1:07:55 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+мар 05, 2020 1:08:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:01 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:08:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:08:01 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:08:01 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:08:02 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:08:02 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 1:08:02 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 1:08:02 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3971 ms
+мар 05, 2020 1:08:02 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:08:02 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:08:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:08:06 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:07 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [279] milliseconds.
+мар 05, 2020 1:08:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [5 205] ms
+мар 05, 2020 1:08:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:08:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 820] ms
+мар 05, 2020 1:08:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:08:13 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [3 837] ms
+мар 05, 2020 1:08:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:08:14 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [713] ms
+мар 05, 2020 1:08:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:08:14 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [726] ms
+мар 05, 2020 1:08:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:08:15 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [669] ms
+мар 05, 2020 1:08:15 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 13195 ms
+мар 05, 2020 1:08:15 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 1:08:15 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:08:15 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 1:08:16 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:08:16 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:08:25 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:08:25 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:08:25 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:08:25 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:08:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:08:26 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 1:08:26 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 1:08:26 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2082 ms
+мар 05, 2020 1:08:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:08:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:08:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:08:29 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:29 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [280] milliseconds.
+мар 05, 2020 1:08:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [3 402] ms
+мар 05, 2020 1:08:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:08:31 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 519] ms
+мар 05, 2020 1:08:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:08:33 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [2 632] ms
+мар 05, 2020 1:08:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:08:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [1 091] ms
+мар 05, 2020 1:08:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:08:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [607] ms
+мар 05, 2020 1:08:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:08:36 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:08:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [714] ms
+мар 05, 2020 1:08:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10157 ms
+мар 05, 2020 1:08:36 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 1:08:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:08:36 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 1:08:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:08:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:09:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:09:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:09:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:09:08 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:09:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:09:09 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 1:09:09 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 1:09:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1892 ms
+мар 05, 2020 1:09:09 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:09:09 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:09:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:09:11 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:09:12 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [354] milliseconds.
+мар 05, 2020 1:09:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [3 567] ms
+мар 05, 2020 1:09:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:09:14 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:09:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 602] ms
+мар 05, 2020 1:09:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:09:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:09:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [1 640] ms
+мар 05, 2020 1:09:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:09:17 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:09:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [1 402] ms
+мар 05, 2020 1:09:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:09:18 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:09:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [843] ms
+мар 05, 2020 1:09:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:09:19 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:09:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [360] ms
+мар 05, 2020 1:09:19 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9585 ms
+мар 05, 2020 1:09:19 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 1:09:19 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:09:19 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 1:09:19 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:09:19 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:12:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:12:10 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:12:10 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:12:11 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:12:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:12:11 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 1:12:11 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 1:12:11 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2009 ms
+мар 05, 2020 1:12:11 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:12:11 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:12:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:12:14 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:12:14 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [306] milliseconds.
+мар 05, 2020 1:12:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [3 736] ms
+мар 05, 2020 1:12:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:12:17 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:12:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 877] ms
+мар 05, 2020 1:12:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:12:19 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:12:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [2 506] ms
+мар 05, 2020 1:12:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:12:20 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:12:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [1 010] ms
+мар 05, 2020 1:12:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:12:21 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:12:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [734] ms
+мар 05, 2020 1:12:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:12:21 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:12:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [343] ms
+мар 05, 2020 1:12:21 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10335 ms
+мар 05, 2020 1:12:21 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 1:12:21 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:12:21 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 1:12:22 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:12:22 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:13:15 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:13:15 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:13:15 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:13:15 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:13:16 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:13:16 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 1:13:16 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 1:13:16 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1792 ms
+мар 05, 2020 1:13:16 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:13:16 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:13:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:13:18 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:13:19 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [384] milliseconds.
+мар 05, 2020 1:13:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [3 520] ms
+мар 05, 2020 1:13:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:13:21 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:13:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 463] ms
+мар 05, 2020 1:13:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:13:22 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:13:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [2 006] ms
+мар 05, 2020 1:13:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:13:24 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:13:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [1 452] ms
+мар 05, 2020 1:13:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:13:25 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:13:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [585] ms
+мар 05, 2020 1:13:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:13:25 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:13:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [525] ms
+мар 05, 2020 1:13:25 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9725 ms
+мар 05, 2020 1:13:25 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 1:13:25 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:13:25 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 1:13:26 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:13:26 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:14:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:14:00 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:14:00 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:14:00 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:14:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:14:01 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 1:14:01 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 1:14:01 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1806 ms
+мар 05, 2020 1:14:01 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:14:01 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:14:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:14:03 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:14:04 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [408] milliseconds.
+мар 05, 2020 1:14:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [3 619] ms
+мар 05, 2020 1:14:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:14:06 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:14:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [2 233] ms
+мар 05, 2020 1:14:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:14:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:14:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [3 591] ms
+мар 05, 2020 1:14:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:14:11 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:14:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [596] ms
+мар 05, 2020 1:14:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:14:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:14:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [752] ms
+мар 05, 2020 1:14:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:14:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:14:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [788] ms
+мар 05, 2020 1:14:12 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11755 ms
+мар 05, 2020 1:14:12 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 1:14:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:14:12 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 1:14:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:14:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 1:31:08 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 1:31:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 1:31:08 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 1:31:08 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 1:31:10 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:31:10 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 8969 ms
+мар 05, 2020 1:31:11 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 1:31:11 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 1:31:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 1:31:24 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:31:26 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [739] milliseconds.
+мар 05, 2020 1:31:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [15 778] ms
+мар 05, 2020 1:31:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 1:31:28 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:31:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 527] ms
+мар 05, 2020 1:31:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 1:31:36 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:31:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [8 265] ms
+мар 05, 2020 1:31:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 1:31:37 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:31:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [945] ms
+мар 05, 2020 1:31:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 1:31:38 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:31:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [929] ms
+мар 05, 2020 1:31:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 1:31:39 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 1:31:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [629] ms
+мар 05, 2020 1:31:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 1:31:39 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 28781 ms
+мар 05, 2020 2:18:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:18:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 2:18:22 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 2:18:22 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 2:18:33 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 2:18:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:18:48 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 2:18:48 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 2:18:48 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 77569 ms
+мар 05, 2020 2:18:50 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 2:18:50 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 2:18:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 2:20:48 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:21:01 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3 682] milliseconds.
+мар 05, 2020 2:21:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [141 468] ms
+мар 05, 2020 2:21:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 2:21:26 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:21:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [13 809] ms
+мар 05, 2020 2:21:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 2:23:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:23:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [104 020] ms
+мар 05, 2020 2:23:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 2:23:13 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:23:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [3 166] ms
+мар 05, 2020 2:23:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 2:23:15 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:23:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [1 853] ms
+мар 05, 2020 2:23:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 2:23:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:23:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [753] ms
+мар 05, 2020 2:23:16 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 267742 ms
+мар 05, 2020 2:23:17 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 2:23:17 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:23:17 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 2:23:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:23:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:25:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 2:25:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 2:25:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 2:25:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 2:25:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 2:25:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 2:25:27 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 2:25:27 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 2:25:27 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 2:25:27 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:25:27 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+мар 05, 2020 2:25:27 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.lang.Exception: Socket bind failed: [730048] [Îáû÷íî ðàçðåøàåòñÿ òîëüêî îäíî èñïîëüçîâàíèå àäðåñà ñîêåòà (ïðîòîêîë/ñåòåâîé àäðåñ/ïîðò).  ]
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:500)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1495 ms
+мар 05, 2020 2:25:27 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 2:25:27 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 2:25:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 2:25:29 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:25:29 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [313] milliseconds.
+мар 05, 2020 2:25:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [2 803] ms
+мар 05, 2020 2:25:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 2:25:31 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:25:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [968] ms
+мар 05, 2020 2:25:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 2:25:34 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:25:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [3 324] ms
+мар 05, 2020 2:25:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 2:25:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:25:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [573] ms
+мар 05, 2020 2:25:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 2:25:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:25:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [566] ms
+мар 05, 2020 2:25:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 2:25:36 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:25:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [433] ms
+мар 05, 2020 2:25:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8914 ms
+мар 05, 2020 2:25:36 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+мар 05, 2020 2:25:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:25:36 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 2:25:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:25:36 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:29:34 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+мар 05, 2020 2:29:35 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:29:35 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+мар 05, 2020 2:29:37 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:29:38 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 05, 2020 2:29:49 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 05, 2020 2:29:49 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 05, 2020 2:29:49 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 05, 2020 2:29:49 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1515 ms
+мар 05, 2020 2:29:49 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 05, 2020 2:29:49 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 05, 2020 2:29:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 05, 2020 2:29:51 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:29:52 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [361] milliseconds.
+мар 05, 2020 2:29:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [2 781] ms
+мар 05, 2020 2:29:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 05, 2020 2:29:53 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:29:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [839] ms
+мар 05, 2020 2:29:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 05, 2020 2:29:55 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:29:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [1 602] ms
+мар 05, 2020 2:29:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 05, 2020 2:29:55 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:29:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [716] ms
+мар 05, 2020 2:29:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 05, 2020 2:29:56 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:29:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [717] ms
+мар 05, 2020 2:29:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 05, 2020 2:29:57 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 05, 2020 2:29:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [696] ms
+мар 05, 2020 2:29:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+мар 05, 2020 2:29:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7654 ms

@@ -1,0 +1,92 @@
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.100
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 11 2020 08:31:12 UTC
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.100.0
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_181
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-b13
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\RSOI\apache-tomcat-7.0.100
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\RSOI\apache-tomcat-7.0.100
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=D:\RSOI\apache-tomcat-7.0.100\conf\logging.properties
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\RSOI\apache-tomcat-7.0.100
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\RSOI\apache-tomcat-7.0.100
+мар 07, 2020 11:21:46 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=D:\RSOI\apache-tomcat-7.0.100\temp
+мар 07, 2020 11:21:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+мар 07, 2020 11:21:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+мар 07, 2020 11:21:46 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+мар 07, 2020 11:21:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+мар 07, 2020 11:21:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 6811 ms
+мар 07, 2020 11:21:48 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+мар 07, 2020 11:21:48 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.100
+мар 07, 2020 11:21:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\axis]
+мар 07, 2020 11:21:59 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 07, 2020 11:22:00 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [660] milliseconds.
+мар 07, 2020 11:22:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\axis] has finished in [12 602] ms
+мар 07, 2020 11:22:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\docs]
+мар 07, 2020 11:22:02 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 07, 2020 11:22:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\docs] has finished in [1 129] ms
+мар 07, 2020 11:22:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\examples]
+мар 07, 2020 11:22:08 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 07, 2020 11:22:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\examples] has finished in [6 586] ms
+мар 07, 2020 11:22:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager]
+мар 07, 2020 11:22:09 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 07, 2020 11:22:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\host-manager] has finished in [597] ms
+мар 07, 2020 11:22:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\manager]
+мар 07, 2020 11:22:10 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 07, 2020 11:22:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\manager] has finished in [987] ms
+мар 07, 2020 11:22:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT]
+мар 07, 2020 11:22:11 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+мар 07, 2020 11:22:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [D:\RSOI\apache-tomcat-7.0.100\webapps\ROOT] has finished in [688] ms
+мар 07, 2020 11:22:11 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+мар 07, 2020 11:22:11 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 23273 ms
